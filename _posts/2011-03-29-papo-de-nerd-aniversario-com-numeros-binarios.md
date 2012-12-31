@@ -23,6 +23,6 @@ A vela acessa representa o número 1 (um) e a vela apagada representa o número 
 
 __Obs.: __Antes do aniversariante soprar as velinhas eu tive que explicar um pouco sobre os números binários. A estratégia foi bem aceita. Ufa! :)
 
-Agora tentem adivinhar que idade esse número binário representa em decimal. Se tiver pressa digite no google a seguinte expressão: <a href="http://www.google.com/search?hl=en&q=0b11001+in+decimal">0b11001 in decimal</a> e aperte enter, ou simplesmente clique no link anterior.
+Agora tentem adivinhar que idade esse número binário representa em decimal. Se tiver pressa digite no google a seguinte expressão: <a href="http://www.google.com/search?hl=en&amp;q=0b11001+in+decimal">0b11001 in decimal</a> e aperte enter, ou simplesmente clique no link anterior.
 
 Grande abraço.
