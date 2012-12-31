@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1 plus MathML 2.0//EN" "http://www.w3.org/TR/MathML2/dtd/xhtml-math11-f.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<!-- Processed by MultiMarkdown -->
+		<meta name="Format" content="complete" />
+		<link href="http://hoth.entp.com/output/gfd.css" rel="stylesheet" type="text/css" />
+		<title>Controle de Versão para Designers</title>
+	
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+</head>
+<body>
+
+<p><em>&#8211; Esse trabalho assume que o leitor não tenha conhecimentos prévios sobre SCM (Sistema de Controle de Versão) &#8211;</em></p>
+<p><em>Essa é uma tradução do artigo <a href="http://hoth.entp.com/output/git_for_designers.html">git for designers</a> feita por Valério Farias do <a href="http://valeriofarias.com">valeriofarias.com</a></em></p>
+ 
+<h1 id="versioncontrol">Controle de Versão para Designers - Git</h1><ol class="toc"><li><a href="#repository-structure">Estrutura de Repositório</a></li><li><a href="#branches">Branches (Ramos)</a></li><li><a href="#workflow">Fluxo de Trabalho</a></li><li><a href="#branching">Branching (criando ramos)</a></li><li><a href="#more-useful-tools">Mais ferramentas úteis</a></li><li><a href="#best-practices">Melhores Práticas</a></li></ol>
+
+<h3 id="whathaveyoudoneformelately">O que você tem feito por mim ultimamente?</h3>
+
+<p><em>Controle de Versão</em>, também conhecido como controle de código fonte ou de controle de revisão é uma parte integrante de qualquer fluxo de desenvolvimento. Por quê? Ele é essencialmente um instrumento de comunicação, como e-mail ou software de mensagens instantâneas, mas funciona com o código em vez de conversas humanas.<p>
+
+<p>Controle de versão</p>
+
+
+<ul>
+<li>Permite que programadores comuniquem facilmente seus trabalhos para outros programadores</li>
+<li>Permite que uma equipe compartilhe código</li>
+<li>Mantém separados versões de código para &#8220;produção&#8221; que ficam sempre em prontidão para serem executadas</li>
+<li>Permite desenvolvimento simultâneo de diferentes funcionalidades no mesmo repositório de código</li>
+<li>Mantém registro de todas as versões antigas de arquivos</li>
+<li>Impede que um trabalho seja sobrescrito</li>
+</ul>
+
+
+<h3 id="whatisversioncontrol">O que é controle de versão?</h3>
+
+
+<p>Controle de versão, alternadamente conhecido como controle de revisão ou gerenciamento de código fonte, é um sistema que mantém versões de arquivos em etapas progressivas de desenvolvimento. O sistema de controle de versão é semelhante em teoria a fazer um backup de seus arquivos, só que mais inteligente. Cada arquivo no sistema tem um histórico completo de mudanças e pode facilmente ser restaurado para qualquer versão de seu histórico. Cada versão tem um identificador único que consiste de uma seqüência de letras e números (443e63e6..).</p>
+
+<p>Existem muitos programas diferentes para o controle de versão. Este documento baseia-se no <em>git</em>, mas você pode também pesquisar por: Subversion (svn), CVS, darcs, Mercurial, Bazaar ou outros. Cada um tem suas especificidades para a operação.<p>
+
+<h5 id="aside:notadevalerio01"><strong>Nota de Valério:</strong>  Não perca mais seu tempo com sistemas de controle de versão centralizados como CVS ou subversion. Procure por sistemas de controle de versão distribuídos e dê 15 passos para frente: mercurial, bazaar, Git.</h5>
+
+
+<h2 id="repository-structure">Estrutura de Repositório</h2>
+
+
+<p>O sistema de controle de versão mais simples consiste de um <em>repositório</em> onde todos os arquivos e suas versões estão armazenados. De forma geral, um repositório funciona como um banco de dados, ele pode retornar qualquer versão de qualquer arquivo dentro dele, ou um histórico de mudanças para qualquer arquivo, ou mesmo um histórico de mudanças em todo o projeto.</p>
+
+<pre><code># 25 Joe   Ajustando o perfil de usuários
+# 24 Fred  Adicionando caixa de login
+# 23 Maria Permitindo upload de fotos por usuários
+# 22 Joe   Mudança da cor do cabeçalho para amarelo
+# 21 Maria Alteração do cabeçalho para azul</code></pre>
+
+<p>Os usuários do repositório poderão <em>ter</em> uma <em>cópia do repositório</em>, que é uma cópia dos últimos arquivos para que possam fazer alterações. Depois de fazer algumas mudanças, eles podem <em>enviar</em> as alterações de volta para o repositório, o que cria uma nova versão com metadados sobre os arquivos que foram alterados e sobre a pessoa que fez as alterações.</p>
+
+
+<p><div class="figure"><div class="container"><img title="A basic source control system" src="/images/scm.png" id="" alt="" /></div><span class="caption">Figure 1: A basic source control system</span></div></p>
+
+<p>Embora seja mais simples para ter uma versão principal, centralizada do repositório, isto não é estritamente necessário. Cada usuário tem uma cópia completa do repositório em sua máquina local. Geralmente, você vai fazer seus "commits" com suas alterações em seu repositório local e, uma vez que ele está completo, envia o seu trabalho para o repositório compartilhado pela sua equipe <em>(git push)</em>. Você também pode puxar as alterações de outros repositórios <em>(git pull).</em>
+
+<p><div class="figure"><div class="container"><img title="A distributed source control system" src="/images/dscm.png" id="" alt="" /></div><span class="caption">Figure 2: A distributed source control system</span></div></p>
+
+<h2 id="branches">Ramificações, ou simplesmente galhos (branches)</h2>
+
+<p>Ramificações (branches) cumprem o mesmo papel que rascunhos quando escrevemos um e-mail. Você pode trabalhar sobre o rascunho, salvando-o com freqüência até que ele esteja completo e, então, quando estiver pronto, você envia o e-mail, e o rascunho é deletado. Neste caso, a caixa de saída não fica poluída por suas frequentes alterações, até que você clique em "enviar".<p>
+
+<p>Ramificação é útil para o desenvolvimento de novas funcionalidades, porque permite que o ramo master (<em>branch master</em> ou ramo principal) - a caixa de saída - esteja sempre funcional e pronta para entrar em produção. Pode haver qualquer número de rascunhos - ramos experimentais - em desenvolvimento ativo. Ramos são fáceis de criar e alternar entre eles.<p>
+
+<p>Uma vez que o código em um branch é finalizado e passar em seus testes, as alterações são <em>mescladas</em> dentro do branch master (merge) e o branch experimental é removido, assim como o rascunho de e-mail. E se alguém enviar commits para o branch master, é fácil atualizar o branch para o último código disponível no master.<p>
+
+<h5 id="aside:notadevalerio02"><strong>Nota de Valério:</strong>Na sequência do tutorial utilizarei na maior parte das vezes o termo em inglês <em>branch</em> para que você possa se acostumar com os comandos do git que são em inglês. Todos os exemplos de comandos git também estarão em Inglês.<br /> <br />O exemplo do rascunho do email para simular o que é branch é ótimo. Você também pode comparar o git e suas ramificações com uma árvore e seus galhos. A árvore possui o tronco (branche master) mas também possui galhos (branches experimentais). Quando você tenta subir até o topo de uma árvore, você pode percorrer diversos galhos(alternar entre branch master e branches experimentais) e de vez em quando você precisa poldar a árvore (depois que finalizar a funcionalidade, mesclar com o branch master e deletar o branch experimental).</h5>
+
+<h2 id="workflow">Fluxo de Trabalho</h2>
+
+<h3 id="attackoftheclones">Ataque dos clones</h3>
+
+<p>Para obter uma cópia do código fonte, você precisa <em>clonar</em> um repositório remoto para sua máquina local. Clonagem cria o repositório e obtém a versão mais recente, que é refenciado pelo <code>HEAD</code>.</p>
+
+<p>Vamos clonar um projeto de código-fonte aberto.</p>
+
+<pre><code>$ git clone git://github.com/wycats/jspec.git
+Initialized empty Git repository</code></pre>
+
+
+<p>Parabéns, você acabou de clonar o seu primeiro repositório. O comando clone facilita a sua vida, pois ele mantém o endereço do repositório original, e o apelida de <em>origin</em>, assim você pode facilmente enviar alterações (se tiver autorização) para o repositório remoto.<p>
+
+<p>Você terá agora uma pasta <code>jspec</code> no diretório atual. Se você usar o comando <code>cd</code> apontando para esse diretório, você deve ver o conteúdo do código fonte JSpec (são apenas alguns arquivos).</p>
+
+<p>Git pode rodar sobre vários protocolos, incluindo &#8220;git://&#8221; como acima (a maioria dos projetos públicos usarão git://). Por padrão, o git usa o protocolo SSH, o que requer que você tenha acesso seguro ao repositório remoto.</p>
+
+<pre><code>$ git clone user@yourserver.com:thing.git</code></pre>
+
+<p>Você pode especificar os detalhes de sua autorização para o ssh como acima.</p>
+
+<h3 id="makingchanges">Fazendo alterações</h3>
+
+<p>Agora que você tem uma cópia do repositório, você pode começar a fazer mudanças. Não há nada mágico sobre a edição dos arquivos, tudo que você precisa fazer é editar o arquivo que você quiser e depois salvá-lo. Depois que o arquivo for salvo, você vai <em>adicionar</em> a mudança para uma área intermediária de revisão (ou, mais geralmente, você vai fazer alterações em vários arquivos e adicioná-los à área de revisão de uma só vez). Para fazer isso, você precisa usar o <em>git add</em> apontando para o arquivo modificado. Isso também é conhecido como &#8220;staging&#8221; (preparação, uma área intermediária onde as mudanças poderão depois ser enviadas permanentemente para o repositório, ou desfeitas, caso necessário. 
+
+<h5 id="aside:notadevalerio02"><strong>Nota de Valério:</strong>Imagine a área de Staging do git como um banco de espera numa clínica. Uma área que você aguarda para ser atendido pelo médico, ou remarca a consulta para outro dia caso apareça algo de urgente para fazer naquele momento).</p></h5>
+
+<pre><code>$ git add index.html</code></pre>
+
+<p>Ou, você pode adicionar um diretório inteiro de uma vez, </p>
+
+<pre><code>$ git add public/</code></pre>
+
+<p>Isso adiciona todos os arquivos da pasta <code>public/</code> para a área de revisão. Ou, adicione o diretório atual:</p>
+
+<pre><code>git add .</code></pre>
+
+<p>Se você fizer alguma alteração no arquivo depois de colocar na área de Staging (antes de usar o commit), você precisa usar <code>git add</code> no arquivo novamente.</p>
+
+<p>O comando <code>git status</code> mostra o status atual do repositório.</p>
+
+
+<pre><code>ninja-owl:public courtenay$ git status
+# On branch master
+# Changes to be committed:
+#   (use "git reset HEAD &lt;file&gt;..." to unstage)
+#
+#   modified:   public/index.html
+#</code></pre>
+
+<p>O comando <code>git diff</code> mostra uma visão do que mudou. Por padrão, ele mostra as alterações que ainda não foram adicionadas à área de staging (ainda não usou o git add). Adicionando o flag "--cached" mostrará somente as mudanças de arquivos que estejam na área de staging.</p>
+
+<pre><code>ninja-owl:public courtenay$ git diff --cached
+diff --git a/public/index.html. b/public/index.html
+index a04759f..754492a 100644
+--- a/public/index.html
++++ b/public/index.html
+@@ -8,7 +8,6 @@ Controle de versão, é um sistema que mantém versões.
+
++ Esta é uma linha que acrescentei ao arquivo
+- Esta é uma linha que eu retirei do arquivo</code></pre>
+
+
+<p>Esta saída é chamado de <code>diff</code> ou  <code>patch</code> e pode ser enviada por email para os colegas de trabalho para que eles possam aplicar as alterações ao seu repositório local. Também é bem legível para pessoas: mostra o nome dos arquivos, o número de linha dentro do arquivo, e as mudanças que ocorreram com os simbólos <code>+</code> (linha adicionada) e <code>-</code> (linha eliminada). Você também pode transferir o resultado do comando diff para um arquivo, da seguinte forma:</p>
+
+<pre><code>ninja-owl:public courtenay$ git diff --cached &gt; line_modify.patch</code></pre>
+
+
+
+<h3 id="committosomethinginyourlife">Comprometa-se(commit) com algo em sua vida</h3>
+
+<p>Quando você fizer suas mudanças, vai querer adicioná-las ao repositório, para isso você você vai usar o comando <code>git commit</code>. Quando você executar este comando, um editor de texto irá aparecer, com uma lista de arquivos que foram alterados e um espaço em branco no topo. Nesse espaço em branco, você precisa descrever o que você mudou para que seus colegas de trabalho possam saber o que você fez com poucas palavras. Você precisa digitar algo melhor do que "coisas", mas não há necessidade de exagerar e fazer algo como:</p>
+
+<pre><code>Mudado linha 434 em index.html para usar espaços em vez de separadores.
+Mudado linha 800 em products.html.erb a ter dois espaços entre as tags.
+Mudado linha 343, 133, 203, 59, e 121 a ter dois espaços no início, em vez de 9.</code></pre>
+
+<p>Uma breve descrição do que você mudou será suficiente. mensagens de commit consisas são uma forma de arte, bem como haiku.</p>
+
+<pre><code>Pequenas alterações na formatação do código.</code></pre>
+
+<p>É um costume aceitável escrever uma linha de sumário (menos de 80 caracteres), uma linha em branco e, em seguida, uma terceira linha descrevendo os pormenores. A segunda e terceira linhas são totalmente opcionais.</p>
+
+<p>Depois que sua mensagem está ao seu gosto, salve o arquivo e saia do editor de texto. Ele fará o commit para seu repositório local, e você pode continuar a dar sequência no seu trabalho.</p>
+
+<h3 id="pushback">Envie de volta (push)</h3>
+
+<p>Uma vez que as alterações foram adicionadas ao seu repositório local usando o git commit, você precisa agora enviá-las para o repositório principal, remoto para que outras pessoas possam obtê-las. Para fazer isso, você precisa executar <code>git push</code>, que enviará todas as mudanças de seu repositório local para o repositório remoto.</p>
+
+<p>Git push possui vários parâmetros: <code>git push <repository> <branch></code> Neste caso, queremos empurrar as alterações de volta para o repositório inicial, que é nomeado como <code>origin</code>, para o branch master.</p>
+
+<pre><code>$ git push origin master</code></pre>
+
+<p>Felizmente para os nossos dedos, git push (e git pull) será o padrão para empurrar, puxar todos os branches comuns para os repositórios local e remoto (origin).</p>
+
+<p>Quando você executar <code>push</code>, você deve ver uma saída semelhante à seguinte:</p>
+
+<pre><code>your-computer:git_project yourusername$ git push
+updating 'refs/heads/master'
+  from fdbdfe28397738d0d42eaca59c6866a87a0336e2
+  to   1c9ec11f757c099680336875b825f817a992333e
+ Also local refs/remotes/origin/master
+Generating pack...
+Done counting 2 objects.
+Deltifying 2 objects...
+ 100% (2/2) done
+Writing 2 objects...
+ 100% (2/2) done
+Total 2 (delta 3), reused 0 (delta 0)
+refs/heads/master: fdbdfe28397738d0d42eaca59c6866a87a0336e2 -&gt; 1c9ec11f757c099680336875b825f817a992333e</code></pre>
+
+<p>Toda essa saída basicamente diz que seus arquivos estão prontos para serem enviados (<code>Generating pack</code>) e que o repositório remoto recebeu os seus arquivos  (<code>Writing 2 objects</code>). Em seguida, o repositório remoto atualizou seu <code>head/master</code> (o branch &#8220;principal&#8221; do repositório) para apontar para a revisão que acabou de ser enviada para que ele reconheça elas como o último conjunto de mudanças enviadas. Agora, outras pessoas podem atualizar suas cópias locais para entrarem em sincronia com as mudanças que você fez. Mas como você faz isso?</p>
+
+
+<h3 id="getupdatesfromafar">Receba as atualizações de longe</h3>
+
+<p>Para atualizar o seu repositório local com o último commit do repositório remoto, você precisará executar <code>git pull</code>. Isso puxa todos os conjuntos de mudanças a partir do repositório remoto e mescla com suas alterações atuais (se houver alguma).</p>
+
+
+<p>Quando você executar um <code>git pull</code>, a saída deve ser algo como a seguinte:</p>
+
+<pre><code>remote: Generating pack...
+remote: Done counting 12 objects.
+remote: Result has 8 objects.
+remote: Deltifying 8 objects...
+remote:  100% (8/8) done
+Unpacking 8 objects...
+remote: Total 8 (delta 4), reused 0 (delta 0)
+ 100% (8/8) done
+* refs/remotes/origin/master: fast forward to branch 'master' of git@yourco.com:git_project
+  old..new: 0c793fd..fdbdfe2
+Auto-merged file.cpp
+Merge made by recursive.
+ .gitignore                             |    2 ++
+ file.cpp                               |    8 ++++++--
+ src/things.html                        |    5 +++--
+ your_file.txt                          |   18 ++++++++++++++++++
+ 4 files changed, 19 insertions(+), 4 deletions(-)
+ create mode 100644 .gitignore
+ create mode 100644 your_file.txt</code></pre>
+
+<p>O que aconteceu é basicamente <code>push</code> em sentido inverso. O repositório remoto prepara (<code>Generating pack</code>) e transfere as mudanças (<code>Unpacking 8 objects</code>) para o seu repositório local. O seu repositório local recebe as mudanças e as implementa na mesma ordem dos commits (Ex: mesclando arquivos, como mostra o exemplo de <code>file.cpp</code> ou como criando novos arquivos como <code>.gitignore</code> ou <code>your_file.txt</code>).</p>
+
+<h5 id="aside:.gitignorethe.gitignorefileletsyoutellgittoignorecertainfilesordirectories.thissettingisusefulforthingslikegeneratedbinarieslogfilesorfileswithlocalpasswordsinthem."><strong>Obs: <code>.gitignore</code></strong> O arquivo <code>.gitignore</code> permite que você informe ao Git para ignorar determinados arquivos ou diretórios. Essa configuração é útil para coisas como binários, arquivos de log, ou arquivos com senhas dentro deles.</h5>
+
+
+<h2 id="branching">Criando Ramificações (Branching)</h2>
+
+<p>Você deve sempre criar um branch(galho) experimental, antes de iniciar o desenvolvimento de uma nova funcionalidade (feature). Desta forma, o branch master estará sempre em um estado funcional(pronto para produção), e você será capaz de trabalhar de forma isolada das outras alterações. Criar um branch permite a você pegar o branch <code>master</code>, cloná-lo, e fazer commits para aquele clone. Então, quando você estiver pronto, você pode mesclar o branch experimental de volta dentro do master, ou, se houver alterações feitas no branch <code>master</code> enquanto você estava trabalhando, você poderá mesclar essas alterações. É como empurrar(pushing) e puxar(pulling), mas tudo acontece no mesmo diretório. A figura abaixo ilustra este processo.</p>
+
+
+<p><div class="figure"><div class="container"><img title="Branching and merging" src="/images/branching.png" id="" alt="" /></div><span class="caption">Figure 3: Branching and merging</span></div></p>
+
+<p>Criar branches é uma ótima forma de duas pessoas trabalharem em conjunto em algo que exige o isolamento da base de código. Isso poderia ser qualquer coisa, desde códigos que terão resultados permanentes, como uma grande refatoração do código ou um redesign de site, até coisas que são apenas temporárias, como um teste de performance.</p>
+
+<h3 id="creatingabranch">Criando um branch</h3>
+
+<p>Para criar um branch no Git, você executa <code>git checkout -b &lt;branch name&gt;</code>. Serão listados todos os arquivos modificados.</p>
+
+
+<pre><code>$ git checkout -b redesign
+M   public/index.html
+Switched to a new branch "redesign"</code></pre>
+
+<p>Você agora está no branch redesign. Para voltar ao branch master,</p>
+
+<pre><code>$ git checkout master
+M   public/index.html
+Switched to a new branch "master"</code></pre>
+
+<p>Você verá que é útil criar o branch no repositório remoto, para que outros possam puxar suas alterações.</p>
+
+<pre><code>$ git push origin redesign</code></pre>
+
+<p>Você também pode enviar seu branch para um diferente branch remoto.</p>
+
+<pre><code>$ git push origin redesign:master</code></pre>
+
+<p>Isso seleciona sua atual cópia de trabalho para fazer commit e push(enviar para repositório remoto)de todas as alterações para o branch <code>redesign</code> nos repositórios local e remoto. Agora, qualquer alteração que você adicione vai ficar armazenada nesse branch(redesign), ao invés de ficar no branch <code>master</code>.</p>
+
+<h5 id="aside:whatbranchamiintoseeyourcurrentbranchandalistofalllocalbranchesexecutegitbranch.tos"><strong>Saiba mais: Em que branch estou?</strong> Para ver o branch atual, e uma lista de todos os branches locais, execute <code>git branch</code>.</h5>
+
+
+<p>Se você precisa puxar mudanças a partir do branch <code>master</code> para seu branch local (ex:, alterações importantes no código, atualizações de segurança, e assim por diante), então você pode usar <code>git pull</code> assim:</p>
+
+<pre><code>git pull origin
+git merge master</code></pre>
+
+<p>Esse comando diz Git para puxar todas as alterações a partir do repositório remoto <code>origin</code> (nome dado ao repositório principal remoto), incluindo todos os branches. Então, você mescla o branch master dentro do seu branch. Quando suas modificações estão prontas para serem mescladas ao branch <code>master</code>, você precisa se posicionar no branch <code>master</code> e em seguida, mesclar o branch redesign dentro dele:</p>
+
+<pre><code>git checkout master
+git merge redesign</code></pre>
+
+<p>Agora as alterações do branch <code>redesign</code> serão mescladas dentro do branch <code>master</code>. Se você terminou de utilizar o branch experimental, então você pode apagá-lo utilizando o parâmetro <code>-d</code>.</p>
+
+<pre><code>git branch -d redesign</code></pre>
+
+<p>Para apagar o branch do repositório remoto, você usa um truque com o comando push (lembre-se você pode empurrar um branch local para um branch remoto diferente  com <code>git push &lt;remote&gt; &lt;local branch&gt;:&lt;remote branch&gt;</code>) e enviar branch local vazio para o branch remoto.</p>
+
+<pre><code>git push origin :redesign</code></pre>
+
+<h2 id="more-useful-tools">Mais ferramentas úteis</h2>
+
+<h3 id="undoingyourchanges">Desfazendo suas alterações</h3>
+
+<p>Você pode remover um arquivo da área de Staging (área intermediária)  com <code>git reset HEAD &lt;nomedoarquivo&gt;</code>.</p>
+
+<p>Se quiser reverter um arquivo de volta para a cópia no repositório, basta utilizar novamente o comando <code>git checkout &lt;nomedoarquivo&gt;</code></p>
+
+<p>Para reverter um arquivo para uma revisão mais antiga, utilize <code>git checkout</code>. Você precisará saber o ID da revisão, que você pode encontrar com <code>git log</code></p>
+
+
+<pre><code>$ git log index.html
+commit 86429cd28708e22b643593b7081229017b7f0f8d
+Author: joe &lt;joe@example.com&gt;
+Date:   Sun Feb 17 22:19:21 2008 -0800
+
+    build new html files
+
+commit 3607253d20c7a295965f798109f9d4af0fbeedd8
+Author: fred &lt;fred@example.com&gt;
+Date:   Sun Feb 17 21:32:00 2008 -0500
+
+    Oops.</code></pre>
+
+<p>Para reverter o arquivo de volta para a versão mais antiga (360725&#8230;) você executar checkout. Git disponibilizará a versão mais antiga para você, pronto para rever e fazer commits.</p>
+
+<pre><code>$ git checkout 3607253d20c7a295965f798109f9d4af0fbeedd8 index.html</code></pre>
+
+<p>Se você já não deseja restaurar esta versão antiga, você pode tirar o arquivo do ambiente Staging e usar o checkout novamente.</p>
+
+<pre><code>$ git reset HEAD index.html
+$ git checkout index.html</code></pre>
+
+<p>Ou em um comando</p>
+
+<pre><code>$ git checkout HEAD index.html</code></pre>
+
+<p>Já reparou que HEAD é intercambiável com número de revisão? Isso porque com o Git, revisões e branches são efetivamente a mesma coisa.</p>
+
+<h3 id="whowrotethatline">Quem escreveu essa linha?</h3>
+
+<p>Execute <code>git blame &lt;file&gt;</code> para saber quem alterou o arquivo e quando.</p>
+
+<h3 id="viewthecompletetree">Ver a árvore completa</h3>
+
+<p>Você pode ver um histórico detalhado da sua cópia de trabalho com <code>gitk</code>.</p>
+
+
+<p><div class="figure"><div class="container"><img title="Sample gitk screenshot" src="/images/gitk.png" id="" alt="" /></div><span class="caption">Figure 4: Sample gitk screenshot</span></div></p>
+
+<p>A aplicação gitk permite navegar através da árvore de alterações, visualizar as diferenças entre os arquivos, pesquisa revisões antigas, e muito mais.</p>
+
+<h2 id="best-practices">Melhores Práticas</h2>
+
+<p>Pensamos em encerrar esta seção com apenas alguns pequenos truques e dicas que podem facilitar para quem trabalha com um sistema de controle de versão.</p>
+
+<h3 id="commitoften">Fazer frequentes commits</h3>
+
+<p>Assim como as pessoas sempre dizem &#8220;Salve frequentemente ou você vai se arrepender&#8217; quando se trabalha com processadores de texto, você deve fazer commits para o seu repositório local com a maior freqüência possível. Além de evitar que você eventualmente perca seu trabalho (o que não deve acontecer se seguir esse conselho!), vai te dar a segurança de poder voltar atrás em qualquer momento, se você precisar. Claro que, enviar <em>commits</em> após <em>commits</em> committing <em>commit</em> after <em>commit</em> every <em>commit</em> wocommitrd or l<em>commit</em>e<em>commit</em>t<em>commit</em>t<em>commit</em>e<em>commit</em>r<em>commit</em> pode ser um pouco excessivo, mas todos os every &#8220;grandes&#8221; (para qualquer uma ou todas as definições de grande) passo que você tiver no seu trabalho, você deve fazer commit.</p>
+
+
+<h3 id="pulloften">Use o comando Pull (puxar) frequentemente</h3>
+
+<p>Inversamente, você também deve puxar muitas vezes. puxando muitas vezes mantém seu código atualizado e, esperançosamente, reduz a duplicação de trabalho. É sempre frustrante quando você passa horas trabalhando em um recurso quando o seu colega de trabalho já implementou e enviou para o repositório, mas você não sabia nada sobre isso porque você atualiza o seu repositório local a partir do remoto somente a cada 3 semanas.</p>
+
+<h3 id="usecheckoutandresetwithcaution">Use <code>checkout</code> e <code>reset</code> com cautela</h3>
+
+<p>Para reverter quaisquer alterações locais que você fez para um arquivo específico desde seu último commit, você pode usar <code>git checkout &lt;filename&gt;</code>, ou você pode usar <code>git reset</code> para eliminar todas as mudanças desde o seu último commit. Ter a capacidade de dar passos para trás é uma grande ferramenta (especialmente se você perceber que você está retornando de um caminho errado), mas é definitivamente uma espada pontas duplas. Uma vez que as alterações são feitas, não tem volta, assim, tenha cuidado! É terrível quando você percebe que você acabou desperdiçado algumas horas de trabalho por um <code>reset</code> destruidor.</p>
+
+
+<h3 id="createyourownrepositoryanywhere">Crie o seu próprio repositório em qualquer lugar</h3>
+
+<p>Se você quiser obter algum controle sobre a versão de um projeto local simples (ou seja, não possui um grande repositório remoto ou nenhum), então você pode simplesmente usar <code>git init</code> para criar a seu próprio repositório autônomo local. Por exemplo, se você estiver trabalhando em alguns conceitos de design para um novo pedido, você poderia fazer algo como o seguinte:</p>
+
+<pre><code>mkdir design_concepts
+git init</code></pre>
+
+<p>Agora você pode adicionar arquivos, fazer commits, criar branches, e assim por diante, simples como um &#8220;verdadeiro&#8221; repositório git remoto. Se você quiser empurrar(git push) e puxar(git pull), você precisa criar um repositório remoto.</p>
+
+
+<pre><code>git remote add &lt;alias&gt; &lt;url&gt;
+git pull &lt;alias&gt; master</code></pre>
+</body>
+</html>
+<!-- This document saved from http://hoth.entp.com/output/git_for_designers.html -->

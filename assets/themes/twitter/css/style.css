@@ -1,9 +1,18 @@
 /* Override some defaults */
 html, body {
   background-color: #eee;
+ /* background-color:black;*/
 }
 .navbar {
   margin-bottom: 0;
+  background:white;
+  padding:0 0 10px 0;
+    background-color: #eee;
+}
+
+.navbar-inner{ padding:20px;}
+.navbar .container{
+
 }
 .container > footer {
   margin-top: 20px;
@@ -30,6 +39,7 @@ html, body {
   background-color: #f5f5f5;
   padding: 20px 20px 10px;
   margin: -20px -20px 20px;
+  padding:50px;
 }
 
 .topbar .btn {
