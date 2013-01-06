@@ -7,11 +7,7 @@ tags: [Computador eletrônico, George Dyson, John Von Neumann, Julian Bigelow, v
 
 {% include JB/setup %}
 
-<blockquote>Quando tomamos consciência do suor, sonhos, persistência e entusiasmo das pessoas que iniciaram nossa era digital, todo o esforço de aprender os zeros e uns e todo o universo criado a partir disso passa a fazer sentido, passa a ser algo mais humano, mais próximo de cada um de nós. Por isso resolvi traduzir esse texto que o historiador científico <a href="http://en.wikipedia.org/wiki/George_Dyson_(science_historian)">George Dyson</a> escreveu para a revista <a href="http://www.makezine.com">Make</a>.
-
-Agradeço ao George Dyson e a Mark Fraunfelder que é o Editor chefe da revista <a href="http://www.makezine.com">Make</a> por liberarem o texto para tradução e publicação em português nesse blog. Foram muito atenciosos e gentis.
-
-Agora fique com o texto:</blockquote>
+> Quando tomamos consciência do suor, sonhos, persistência e entusiasmo das pessoas que iniciaram nossa era digital, todo o esforço de aprender os zeros e uns e todo o universo criado a partir disso passa a fazer sentido, passa a ser algo mais humano, mais próximo de cada um de nós. Por isso resolvi traduzir esse texto que o historiador científico <a href="http://en.wikipedia.org/wiki/George_Dyson_(science_historian)">George Dyson</a> escreveu para a revista [Make](http://www.makezine.com). Agradeço ao George Dyson e a Mark Fraunfelder que é o Editor chefe da revista [Make](http://www.makezine.com) por liberarem o texto para tradução e publicação em português nesse blog. Foram muito atenciosos e gentis. O texto original em inglês você pode encontrar no seguinte [link](http://www.make-digital.com/make/vol06/?pg=192#pg192). Agora fique com o texto:
 
 
 ## Olhando para o início do universo digital? Verifique no porão, junto ao lavatório.
