@@ -7,9 +7,17 @@ tags: [Internet, informática, História digital]
 {% include JB/setup %}
 
 
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/us/"><img alt="Creative Commons License" style="border-width:0; float:right; margin:5px;" src="http://i.creativecommons.org/l/by-nc-sa/3.0/us/88x31.png"  /></a> <br style="float:none;"/><br /><br />
+
+> A Brief History of the Internet by <a href="http://www.walthowe.com/navnet/history.html" property="cc:attributionName" rel="cc:attributionURL">Walt Howe</a> <br /> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/us/">Creative Commons Attribution-<br />Noncommercial-Share Alike 3.0 United States License</a>. Based on a work at <a xmlns:dc="http://purl.org/dc/elements/1.1/" href="http://www.walthowe.com" rel="dc:source">www.walthowe.com</a>.
+
+
+You can also read this history in a <a href="http://webhostinggeeks.com/science/anecdotal-history-be">Belorussion translation</a> by Bohdan Zograf.
+
+
 > A internet moderna, da forma como a utilizamos hoje, baseada no protocolo TCP/IP, completou 30 anos, no dia 1 de janeiro de 2013. Em 1981, o Darpa começou a testar o protocolo para integrar suas redes. No dia 1 de janeiro de 1983, os 400 servidores do laboratório, baseados no protocolo NCP, foram desligados e o sistema migrou para o TCP/IP, dando origem à internet atual. Aproveitando essa data histórica fiz a tradução desse pequeno texto que conta a história da Internet de forma leve e que mostra não somente a tecnologia, mas também as pessoas envolvidas. O texto original você encontra [aqui](http://walthowe.com/navnet/history.html). Fique agora com a tradução.
 
-Uma história anedótica das pessoas e comunidades que trouxeram a Internet e a Web
+## Uma história anedótica das pessoas e comunidades que trouxeram a Internet e a Web
 
 A Internet foi o resultado de um pensamento visionário de pessoas no início dos anos 1960, que viram grande valor potencial em permitir que computadores compartilhassem informações sobre a pesquisa e desenvolvimento em campos científicos e militares. __J.C.R. Licklider__, do MIT, propôs pela primeira vez uma rede global de computadores em 1962, e mudou-se para o Defense Advanced Research Projects Agency (DARPA) no final de 1962 para chefiar o trabalho de desenvolve-la. __Leonard Kleinrock__, do MIT, e mais tarde UCLA desenvolveu a teoria da comutação de pacotes, que serviu de base para as conexões de Internet. __Lawrence Roberts__, do MIT, conectou um computador de Massachusetts com um computador da Califórnia em 1965 através de linhas de telefone dial-up. Ele mostrou a viabilidade da rede de longa distância, mas também mostrou que os circuitos de linha telefônica eram inadequados. A Teoria de Kleinrock de comutação de pacotes foi confirmada. Roberts foi até DARPA em 1966 e desenvolveu o seu plano para a ARPANET. Estes visionários e muitos outros não nomeados aqui são os verdadeiros fundadores da Internet.
 
