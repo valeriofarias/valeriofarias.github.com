@@ -8,7 +8,7 @@ tags: [método, metodologia, DDD, software]
 
 O mundo da informática, mais especificamente o de desenvolvimento de software é muito complexo. Eu estava procurando uma forma mais simples de repassar para qualquer pessoa que viesse me visitar como é minha forma de trabalhar. Foi daí que me veio a ideia do DDD, que você pode visualizar na imagem abaixo:
 
-<img src="/images/ddd.jpeg" alt="Método DDD" />
+<img src="images/ddd.jpeg" alt="Método DDD" />
 
 __Descentralizar__: Criar infraestrutura que permita que as pessoas façam o que tem que ser feito, independente da sua presença; 
 
