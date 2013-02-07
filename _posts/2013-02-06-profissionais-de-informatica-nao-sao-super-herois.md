@@ -6,11 +6,11 @@ tags: [informática, carreira, profissional]
 ---
 {% include JB/setup %}
 
-Antes de ler o texto abaixo quero lembrar que qualquer profissão citada é digna e importante. Não estou aqui falando que a área de TI (Tecnologia da Informação) é superior ou inferior as outras, só estou querendo mostrar que ela é diferente.
+Antes de ler o texto abaixo quero lembrar que qualquer profissão citada é digna e importante. Não estou aqui falando que a área de TI (Tecnologia da Informação) é superior ou inferior às outras, só estou querendo mostrar que ela é diferente.
 
 <img src="/images/superman.jpg" alt="Profissionais de Informática não são super-heróis"/>
 
-As funções da área de informática ou tecnologia da informação são muito recentes comparados com medicina e engenharia. Devido a isso e também a complexidade da área, ainda não é claro e conhecido universalmente o que as pessoas que trabalham com informática fazem e como interagir com a equipe de informática de forma que resolva seu problema, mas não atrapalhe o deles.
+As funções da área de informática ou tecnologia da informação são muito recentes,  comparados com medicina e engenharia. Devido a isso e também a complexidade da área, ainda não é claro e conhecido universalmente o que as pessoas que trabalham com informática fazem e como interagir com a equipe de informática de forma que resolva seu problema, mas não atrapalhe o deles.
 
 Aí você pode me perguntar: Mas vocês não concertam computadores ou desenvolvem sistemas?
 
@@ -25,7 +25,7 @@ __Professor do ensino básico:__ Algumas pessoas tem realmente dificuldades com 
 __Psicólogo:__ Tem pessoas que estão com seus problemas pessoais e querem desabafar. Tudo bem, somos seres humanos. Mas, quando fica repetitivo, desgasta e atrapalha o serviço. Tem pessoas também que querem descontar a raiva no setor técnico e não querem parar para entender o problema que, na maioria dos casos, não é culpa do setor de TI. A dica aqui é: 
 - procure conhecer com mais profundidade os problemas; 
 - não saia jogando sua raiva em pessoas que não tem culpa de nada; 
-- resolva seus problemas pessoais, não transfira eles para o ambiente de trabalho 
+- resolva seus problemas pessoais, não transfira eles para o ambiente de trabalho; 
 - se preciso, procure um psicólogo, eles sim são capacitados para te orientar a ser uma pessoa mais equilibrada.
 
 __Setor de recados:__ Devido a sala de TI servir de suporte para a empresa inteira, muitos passam e perguntam: qual a sala de fulano? Fulano já passou por aqui hoje? Isso quebra o que há de mais essencial para nós: __a concentração__. Procure o setor de TI para resolver assuntos técnicos, para tirar dúvidas da área, mas para mandar recados... isso vai atrapalhar.  
@@ -42,7 +42,7 @@ __Paramédicos do SAMU:__ semelhante ao ítem anterior, só que ao invés do pro
 
 __Super-homem__ (ou qualquer outro super-herói de sua preferência): Na nossa profissão, nós automatizamos e otimizamos processos. Mas não temos superpoderes. A atividade de análise exige um trabalho em conjunto com as pessoas que fazem o serviço manual no dia a dia. Exige que se chegue em um consenso de um processo lógico. Não é possível automatizar o caos. É preciso um mínimo de ordem para que possamos automatizar. Quando o ambiente é muito complexo, é preciso também ter consciência que é necessário manter procedimentos manuais, seja para resolver casos extrasistema que não foram previstos, seja para resolver o problema em uma situação extrema em que ocorra uma falha na rede.
 
-Emfim, na essência, somos seres humanos iguais a você e a qualquer outra pessoa. As diferenças são devido as características do nosso trabalho. 
+Enfim, na essência, somos seres humanos iguais a você e a qualquer outra pessoa. As diferenças são devido às características do nosso trabalho. 
 
 Espero ter ajudado. Um abraço e até o próximo post.
 
