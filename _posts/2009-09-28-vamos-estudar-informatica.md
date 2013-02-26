@@ -48,7 +48,7 @@ A partir de agora você terá uma seção de links úteis, organizados de acordo
 __História:__
 <ul>
 	<li><a href="http://pt.wikipedia.org/wiki/Hist%C3%B3ria_da_computa%C3%A7%C3%A3o">História da computação - wikipedia</a></li>
-	<li><a href="http://geyserway.com/inicio-da-era-digital/">Início da era digital (tradução)</a></li>
+	<li><a href="http://valeriofarias.com/inicio-da-era-digital/">Início da era digital (tradução)</a></li>
 	<li><a href="  http://informatica.hsw.uol.com.br/inicio-da-internet.htm">Como surgiu a Internet?</a></li>
   <li><a href="http://www.youtube.com/watch?v=F3qWg1JBPZg">História do computador em minutos (vídeo Youtube)</a></li>
   <li><a href="http://www.ted.com/talks/george_dyson_at_the_birth_of_the_computer.html">O nascimento do computador (vídeo TED - Apresentação do historiador científico George Dyson)</a></li>
@@ -81,7 +81,7 @@ __Hardware:__
 __Representação dos dados:__
 <ul>
 	<li><a href="http://informatica.hsw.uol.com.br/bits-bytes.htm">Como funcionam os bits e os bytes</a></li>
-  <li><a href="http://geyserway.com/brincando-com-numeros-binarios/">Brincadeira do contador binário com pessoas</a></li>
+  <li><a href="http://valeriofarias.com/brincando-com-numeros-binarios/">Brincadeira do contador binário com pessoas</a></li>
 </ul>
 
 __Software:__
