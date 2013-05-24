@@ -7,7 +7,7 @@ tags: [inglês, idiomas, aprender inglês, falar inglês]
 
 {% include JB/setup %}
 
-> Tradução à partir da seguinte fonte: Fonte: http://lingualeo.com/jungle/3492 
+> Tradução à partir da seguinte fonte: http://lingualeo.com/jungle/3492 
 
 Você está aprendendo Inglês. Claro que você quer falar, naturalmente, como se você fosse americano ou britânico. Mas como você pode fazer isso? Aqui estão cinco dicas para ajudar.
 
@@ -77,6 +77,7 @@ Por que não usar "very"? Não é totalmente errado, mas usar "very" na verdade 
 
 ### mais posts sobre aprender inglês
 
+<ul>
 <li><a href='/10-erros-que-prejudicam-o-aprendizado-de-ingles/'>10 erros que prejudicam o aprendizado de inglês</a></li>
 
 <li><a href='/vamos-brincar-de-aprender-ingles/'>Vamos brincar de aprender inglês</a></li>
@@ -88,27 +89,17 @@ Por que não usar "very"? Não é totalmente errado, mas usar "very" na verdade 
 <li><a href='/aprenda-ingles-de-forma-natural-traducao/'>Aprenda inglês de forma natural (tradução)</a></li>
 
 <li><a href='/effortless-english-aprender-sem-esforco-desnecessario/'>Effortless english aprender sem esforço desnecessário</a></li>
+
+<li><a href='/aprenda-ingles-com-a-formula-da-maestria-traducao/'>Aprenda inglês com a fórmula da maestria (tradução)</a></li>
+</ul> 
+
  
 Publicidade:
 Se quiser obter o curso <strong>Efortless English</strong> click no link a seguir: 
-<a href="https://www.e-junkie.com/ecom/gb.php?cl=5336&amp;c=ib&amp;aff=60441" target="ejejcsingle">Clique Aqui para visitar o website do Effortless English LLC!</a> 
- 
-       
-         
-        
- 
-
-  
-  
-   
-   
-    
-      
+<a href="https://www.e-junkie.com/ecom/gb.php?cl=5336&amp;c=ib&amp;aff=60441" target="ejejcsingle">Clique Aqui para visitar o website do Effortless English LLC!</a>  
       
       
 
-    <li style='margin-bottom:10px;'><span style='color:green;'>Apr 27</span> &raquo; <a href='/aprenda-ingles-com-a-formula-da-maestria-traducao/'>Aprenda inglês com a fórmula da maestria (tradução)</a></li>
- 
        
          
         
