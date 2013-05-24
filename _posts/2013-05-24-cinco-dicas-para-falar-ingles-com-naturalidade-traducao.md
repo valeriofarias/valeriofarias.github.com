@@ -12,7 +12,9 @@ tags: [inglês, idiomas, aprender inglês, falar inglês]
 Você está aprendendo Inglês. Claro que você quer falar, naturalmente, como se você fosse americano ou britânico. Mas como você pode fazer isso? Aqui estão cinco dicas para ajudar.
 
 <img src="/images/peace.jpg" style="float:right;" alt="Peace"/>
-Fonte da imagem: http://www.flickr.com/photos/sweetmojo/2349316636
+
+
+Fonte da imagem:http://www.flickr.com/photos/sweetmojo/2349316636
 
 ### 1 - usar 'get'
 
@@ -91,32 +93,16 @@ Por que não usar "very"? Não é totalmente errado, mas usar "very" na verdade 
 <li><a href='/effortless-english-aprender-sem-esforco-desnecessario/'>Effortless english aprender sem esforço desnecessário</a></li>
 
 <li><a href='/aprenda-ingles-com-a-formula-da-maestria-traducao/'>Aprenda inglês com a fórmula da maestria (tradução)</a></li>
+
+<li><a href='/aprender-ingles-parte-2/'>Aprender inglês parte 2</a></li>
+       
+<li><a href='/aprender-ingles/'>Aprender inglês</a></li>
+
 </ul> 
 
  
 Publicidade:
 Se quiser obter o curso <strong>Efortless English</strong> click no link a seguir: 
-<a href="https://www.e-junkie.com/ecom/gb.php?cl=5336&amp;c=ib&amp;aff=60441" target="ejejcsingle">Clique Aqui para visitar o website do Effortless English LLC!</a>  
-      
-      
-
-       
-         
-        
- 
-
-  
-  
-   
-   
-    
-      
-      
+<a href="https://www.e-junkie.com/ecom/gb.php?cl=5336&amp;c=ib&amp;aff=60441" target="ejejcsingle">Clique Aqui para visitar o website do Effortless English LLC!</a> 
       
 
-    <li style='margin-bottom:10px;'><span style='color:green;'>Apr 26</span> &raquo; <a href='/aprender-ingles-parte-2/'>Aprender inglês parte 2</a></li>
- 
-       
-  <li style='margin-bottom:10px;'><span style='color:green;'>Apr 26</span> &raquo; <a href='/aprender-ingles/'>Aprender inglês</a></li>
- 
-       
