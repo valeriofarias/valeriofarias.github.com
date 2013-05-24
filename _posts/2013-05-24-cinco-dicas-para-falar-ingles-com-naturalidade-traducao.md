@@ -9,12 +9,10 @@ tags: [inglês, idiomas, aprender inglês, falar inglês]
 
 > Tradução à partir da seguinte fonte: http://lingualeo.com/jungle/3492 
 
-Você está aprendendo Inglês. Claro que você quer falar, naturalmente, como se você fosse americano ou britânico. Mas como você pode fazer isso? Aqui estão cinco dicas para ajudar.
-
+(Fonte da imagem: http://www.flickr.com/photos/sweetmojo/2349316636)
 <img src="/images/peace.jpg" style="float:right;" alt="Peace"/>
 
-
-Fonte da imagem:http://www.flickr.com/photos/sweetmojo/2349316636
+Você está aprendendo Inglês. Claro que você quer falar, naturalmente, como se você fosse americano ou britânico. Mas como você pode fazer isso? Aqui estão cinco dicas para ajudar.
 
 ### 1 - usar 'get'
 
