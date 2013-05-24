@@ -11,6 +11,8 @@ tags: [inglês, idiomas, aprender inglês, falar inglês]
 
 Você está aprendendo Inglês. Claro que você quer falar, naturalmente, como se você fosse americano ou britânico. Mas como você pode fazer isso? Aqui estão cinco dicas para ajudar.
 
+<img src="/images/peace.jpg" style="float:right;" alt="Peace"/>
+
 ### 1 - usar 'get'
 
 'Get' é uma das palavras mais úteis e mais usadas no idioma Inglês. Falantes de inglês usam o tempo todo! Dê uma olhada neste exemplo:
