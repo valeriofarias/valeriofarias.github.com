@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Como escolher um nome para um site de evento"
-category: Densenvolvimento de Sistemas
+category: Desenvolvimento de Sistemas
 tags: [endereço, nomear sites]
 ---
 {% include JB/setup %}

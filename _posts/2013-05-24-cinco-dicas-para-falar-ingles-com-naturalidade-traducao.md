@@ -18,27 +18,27 @@ Você está aprendendo Inglês. Claro que você quer falar, naturalmente, como s
 
 'Get' é uma das palavras mais úteis e mais usadas no idioma Inglês. Falantes de inglês usam o tempo todo! Dê uma olhada neste exemplo:
 
-__Iniciante__: What time did you arrive?
-__Nativo__: What time did you get there?
+- __Iniciante__: What time did you arrive?
+- __Nativo__: What time did you get there?
 
 'Get' tem muitos significados. Pode significar "take - tomar" ou "buy - comprar". Estudantes de inglês, muitas vezes têm dificuldade para usar 'get' no sentido de 'become - tornar-se':
 
-__Iniciante__: I became angry when the train was late. 
-__Nativo__: I got angry when the train was late.
+- __Iniciante__: I became angry when the train was late. 
+- __Nativo__: I got angry when the train was late.
 
 Na verdade, geralmente usamos 'get' para situações temporárias e 'become - tornar-se' para situações permanentes.
 
-__Temporária__: She got bored with the movie.
-__Permanente__: Ralph become a doctor at age twenty-five.
-__Incorreto__: Ralph got a doctor at age twenty-five.
+- __Temporária__: She got bored with the movie.
+- __Permanente__: Ralph become a doctor at age twenty-five.
+- __Incorreto__: Ralph got a doctor at age twenty-five.
 
 ### 2 - usar 'used to'
 
 "Used to" é uma das frases mais úteis em Inglês, e é até fácil de pronunciar. Estudantes de inglês muitas vezes se confundem quando tentam substituir uma frase de sua própria língua:
 
-__Iniciante__: Last time, I smoked a lot.
-__Iniciante__: I smoked a lot, but now, no.
-__Nativo__: I used to smoke a lot.
+- __Iniciante__: Last time, I smoked a lot.
+- __Iniciante__: I smoked a lot, but now, no.
+- __Nativo__: I used to smoke a lot.
 
 Aqui está uma palavra de advertência. Há duas formas de "used to 'em Inglês e ambas têm diferentes significados e estruturas gramaticais:
 - __Exemplo 1__: I used to be a policeman.
@@ -50,17 +50,17 @@ No exemplo 1, o significado é 'no passado, mas agora não ". No exemplo 2, o si
 
 Aqui é outra frase que não se traduz facilmente em outras línguas. Como resultado, é difícil para os alunos começarem a usar. 'manage to' é semelhante a 'to succeed in doing it'. No entanto, se você usar a frase 'succeed' em vez disso, o resultado soa desajeitado:
 
-__Iniciante__: Did you succeed to find the keys that you lost?
-__Nativo__: Did you manage to find the keys that you lost?
+- __Iniciante__: Did you succeed to find the keys that you lost?
+- __Nativo__: Did you manage to find the keys that you lost?
 
 
 ### 4 - Usar 'about to'
 
 'about to' é uma pequena frase que é surpreendentemente útil. Esteja sempre atento a ela e você ficará surpreso quantas vezes você ira ouvi-la em uso. Nós usamos esta frase para mostrar que algo vai acontecer em breve. Veja como um falante nativo pode usá-lo:
-__Iniciante__: I think it is going to rain soon.
-__Nativo__: It's looks like it's about to rain.
-__Iniciante__: I can't have another coffe. I am going soon.
-__Nativo__: I don't have time for another coffe. I'm about to go.
+- __Iniciante__: I think it is going to rain soon.
+- __Nativo__: It's looks like it's about to rain.
+- __Iniciante__: I can't have another coffe. I am going soon.
+- __Nativo__: I don't have time for another coffe. I'm about to go.
 
 ### 5 - Não usar "very"
 
