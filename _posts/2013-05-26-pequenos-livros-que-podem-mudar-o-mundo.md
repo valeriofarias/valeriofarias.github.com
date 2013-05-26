@@ -34,7 +34,7 @@ A observação final é para que o estudo seja realizado no mesmo dia da aula as
 
 Essa rotina coerente com o funcionamento do cérebro pode ser relembrada pela seguinte frase idealizada por Pier: __"Aula dada é aula estudada hoje"__. 
 
-Professor Pier, escreveu outros dois livros, direcionados para os pais e para os professores. Para saber mais sobre o assunto, acesse o site do autor no endereço [neuropedagogia.org](http://neuropedagogia.org). Leia também o texto do mesmo autor: [Tablet x Caderno e Livro](http://formaescrita.com.br/projetoeditorial/index.php/prof-pier-2/134-tablet-x-caderno-e-livro).
+Professor Pier, escreveu outros dois livros, direcionados para os pais e para os professores. Para saber mais sobre o assunto, acesse o site do autor no endereço [neuropedagogia.org](http://neuropedagogia.org). Leia também o texto do mesmo autor: [Tablet x Caderno e Livro](http://formaescrita.com.br/projetoeditorial/index.php/prof-pier-2/134-tablet-x-caderno-e-livro) e [Aluno não é estudante](http://formaescrita.com.br/projetoeditorial/index.php/prof-pier-2/116-aluno-nao-e-estudante).
 
 O outro livro é __Metodologia Científica ao alcance de todos__. Nele, Celicina começa explicando que é imprescindível para ciência recuperar a capacidade de pensar com o único objetivo de satisfazer a própria curiosidade, sem inibição, sem bloqueios, que muitas vezes são provocados pelas próprias escolas despreparadas. 
 
