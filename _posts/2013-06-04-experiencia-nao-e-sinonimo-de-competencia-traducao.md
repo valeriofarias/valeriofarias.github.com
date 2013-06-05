@@ -117,11 +117,11 @@ Só quando você está sozinho, Ericsson me disse, você pode "ir diretamente re
 
 A resposta para essa pergunta é bem simples: __analise os resultados da pessoa no dia a dia, tomando como parâmetro a essência de cada atividade__. 
 
-__Para contratar um programador__
+__Para contratar um programador__ - 
 A essência da atividade é fluência em código funcionando que resolve problemas do dia a dia, portanto
 você pode verificar a qualidade do código através de plataformas como github.com, depois contrate por período experimental (estágio) para que ele possa se habituar com o ritmo e daí você pode observar se o ritmo e visão dele se encaixa com o ritmo e visão da empresa. 
 
-__Para contratar um professor__
+__Para contratar um professor__ - 
 A essência da atividade de um professor é a capacidade dele de transformar [alunos em estudantes](http://formaescrita.com.br/projetoeditorial/index.php/prof-pier-2/116-aluno-nao-e-estudante)
 Você pode oferecer um contrato experimental e detectar se ele consegue realmente transformar os [alunos em estudantes](http://formaescrita.com.br/projetoeditorial/index.php/prof-pier-2/116-aluno-nao-e-estudante) no decorrer do período experimental.
 
