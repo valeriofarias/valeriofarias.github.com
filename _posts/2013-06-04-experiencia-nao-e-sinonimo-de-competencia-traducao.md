@@ -6,9 +6,11 @@ tags: [prática deliberada, aprender, competência, inteligência, aprimoramento
 ---
 {% include JB/setup %}
 
+> The original post was written by Shane Parrish. You can access it in [farnamstreetblog] (http:// www.farnamstreetblog.com/2012/07/what-is-deliberate-practice/).
+
 
 > No texto abaixo você vai entender o que significa e qual a importância da Prática Deliberada.
-> O texto original está disponível em [farnamstreetblog] (http://www.farnamstreetblog.com/2012/07/what-is-deliberate-practice/)
+> O texto original está disponível em [farnamstreetblog] (http://www.farnamstreetblog.com/2012/07/what-is-deliberate-practice/). 
 > Obs:. Tomei a liberdade de inserir algumas notas no decorrer do texto para contextualizá-lo com a realidade brasileira. Fique agora com o texto.
 
 Você provavelmente vem fazendo o mesmo trabalho há um bom tempo. Se você for como a maioria das pessoas, o seu desempenho atingiu o topo. Simplificando, você parou de ficar cada vez melhor no que faz.
