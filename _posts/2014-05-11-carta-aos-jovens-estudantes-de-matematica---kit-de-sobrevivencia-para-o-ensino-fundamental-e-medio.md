@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Carta aos Jovens Estudantes de Matemática -  Kit de Sobrevivência para o Ensino Fundamental e Medio (ebook)"
+title: "Carta aos Jovens Estudantes de Matemática -  Kit de Sobrevivência para o Ensino Fundamental e Médio (ebook)"
 category: Ebooks Gratuitos
 tags: [ebook, Matemática, Aprender matemática, kit de sobrevivência, Ensino Fundamental, Ensino Médio]
 ---
@@ -35,4 +35,4 @@ Chega de mitos, mentiras, distorções a respeito de uma disciplina que é base 
 
 Sei que você já está curioso para saber as dicas, então fique com o livro: 
 
-[Carta aos Jovens Estudantes de Matemática](http://www.slideshare.net/valeriofarias/carta-aosjovensestudantesdematematica)
+<iframe src="http://www.slideshare.net/slideshow/embed_code/34549563" width="597" height="486" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px 1px 0; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="https://www.slideshare.net/valeriofarias/carta-aosjovensestudantesdematematica" title="Carta aos Jovens Estudantes de Matemática - Kit de Sobrevivência para o Ensino Fundamental e Médio" target="_blank">Carta aos Jovens Estudantes de Matemática - Kit de Sobrevivência para o Ensino Fundamental e Médio</a> </strong> from <strong><a href="http://www.slideshare.net/valeriofarias" target="_blank">Valério Farias</a></strong> </div>
