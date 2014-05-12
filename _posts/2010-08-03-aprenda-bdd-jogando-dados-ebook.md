@@ -23,15 +23,19 @@ Finalmente, no terceiro capítulo eu uso as classes criadas em uma divertida apl
 Então eu espero que você aproveite esse livro simples mas também muito instrutivo. Os testes usados nesse livro não são uma solução definitiva. Eles são somente possibilidades no meio de outras. Como eu disse, eu o escrevi para aprender RSpec. Você pode enviar sugestões, clonar o projeto, modificá-lo e codificá-lo de outra forma. Quem sabe não faremos juntos a versão 2.0 desse livro :).
 
 Fique agora com o livro:
+
 <div id="__ss_4798578" style="width: 425px;"><strong style="display: block; margin: 12px 0 4px;"><a title="Aprenda bdd-jogando-dados-ebook" href="http://www.slideshare.net/valeriofarias/aprenda-bddjogandodadosebook">Aprenda bdd-jogando-dados-ebook</a></strong><object id="__sse4798578" classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" width="425" height="355" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0"><param name="allowFullScreen" value="true" /><param name="allowScriptAccess" value="always" /><param name="src" value="http://static.slidesharecdn.com/swf/ssplayer2.swf?doc=aprenda-bdd-jogando-dados-ebook-100720143458-phpapp01&amp;stripped_title=aprenda-bddjogandodadosebook" /><param name="name" value="__sse4798578" /><param name="allowfullscreen" value="true" /><embed id="__sse4798578" type="application/x-shockwave-flash" width="425" height="355" src="http://static.slidesharecdn.com/swf/ssplayer2.swf?doc=aprenda-bdd-jogando-dados-ebook-100720143458-phpapp01&amp;stripped_title=aprenda-bddjogandodadosebook" name="__sse4798578" allowscriptaccess="always" allowfullscreen="true"></embed></object>
 <div style="padding: 5px 0 12px;">View more <a href="http://www.slideshare.net/">presentations</a> from <a href="http://www.slideshare.net/valeriofarias">Valério  Farias</a>.</div>
 </div>
 
 O código fonte completo da aplicação você pode baixar em:
+
 <a href="http://github.com/valeriofarias/shoes-war-dice">http://github.com/valeriofarias/shoes-war-dice</a>
 
 O texto completo do livro e o código fonte do gerador de livros você pode baixar em:
+
 <a href="http://github.com/valeriofarias/learn-bdd-playing-dice-book">http://github.com/valeriofarias/learn-bdd-playing-dice-book</a>
 
 Se preferir, você pode também baixar a <strong>versão em inglês</strong> do livro:
+
 <a href="http://valeriofarias.com/learn-bdd-playing-dice-ebook/">http://valeriofarias.com/learn-bdd-playing-dice-ebook/</a>
