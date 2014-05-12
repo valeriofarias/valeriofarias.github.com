@@ -46,6 +46,7 @@ O arquivo detalhado do mapa mental você pode encontrar nesse link:
 A partir de agora você terá uma seção de links úteis, organizados de acordo com as áreas mostradas no mapa anterior, complementado com um item chamado curiosidades, que são as dúvidas geradas durante algumas aulas que ministro e por mais dois outros itens chamados empreendedorismo e informática para concurso:
 
 __História:__
+
 <ul>
 	<li><a href="http://pt.wikipedia.org/wiki/Hist%C3%B3ria_da_computa%C3%A7%C3%A3o">História da computação - wikipedia</a></li>
 	<li><a href="http://valeriofarias.com/inicio-da-era-digital/">Início da era digital (tradução)</a></li>
@@ -57,6 +58,7 @@ __História:__
 </ul>
 
 __Classificação dos computadores:__
+
 <ul>
 	<li><a href="http://pt.wikipedia.org/wiki/Servidor">Servidor - wikipedia</a></li>
 	<li><a href="http://idgnow.uol.com.br/computacao_corporativa/2009/04/07/mainframe-comemora-45-anos/">Mainframe comemora 45 anos</a></li>
@@ -68,6 +70,7 @@ __Classificação dos computadores:__
 </ul>
 
 __Hardware:__
+
 <ul>
 	<li><a href="http://informatica.hsw.uol.com.br/pc.htm">Como funciona o computador pessoal</a></li>
   <li><a href="http://informatica.hsw.uol.com.br/microprocessadores.htm">Como funciona os processadores</a></li>
@@ -79,12 +82,14 @@ __Hardware:__
 </ul>
 
 __Representação dos dados:__
+
 <ul>
 	<li><a href="http://informatica.hsw.uol.com.br/bits-bytes.htm">Como funcionam os bits e os bytes</a></li>
   <li><a href="http://valeriofarias.com/brincando-com-numeros-binarios/">Brincadeira do contador binário com pessoas</a></li>
 </ul>
 
 __Software:__
+
 <ul>
 	<li><a href="http://informatica.hsw.uol.com.br/sistemas-operacionais.htm">Como funcionam os Sistemas Operacionais</a></li>
   <li><a href="http://informatica.hsw.uol.com.br/twitter.htm">Como funciona o Twitter</a></li>
@@ -92,12 +97,14 @@ __Software:__
 </ul>
 
 __Empreendedorismo:__
+
 <ul>
 	<li><a href="http://blog.beonthe.net/post/184546737/o-mundo-de-joana-parte-1">Mundo de Joana - novela didática que mostra o dia a dia de Joana na sua tentativa de trabalhar como fotógrafa na éra da informática e internet.</a></li>
   <li><a href="http://gettingreal.37signals.com/GR_por.php">Caindo na real - A empresa 37Signals mostra o que fizeram para se tornarem um sucesso.</a></li>
 </ul>
 
 __Curiosidades:__
+
 <ul>
 	<li><a href="http://www.baixaki.com.br/info/1902-como-prolongar-a-vida-util-do-computador.htm">Como prolongar a vida útil do computador</a></li>
 	<li><a href="http://www.baixaki.com.br/info/1089-desligar-ou-nao-o-computador-.htm">É melhor desligar o computador ou deixar ele ligado direto?</a></li>
@@ -111,4 +118,3 @@ __Informática para Concurso:__
 
 - 	Acesse o TreinaTom na seção de eventos públicos através do seguinte link:   <a href="http://www.treinatom.com.br/pt/eventos">TreinaTom Eventos Públicos</a>. Depois clique no link do evento: COMENTÁRIOS DAS QUESTÕES DE INFORMÁTICA POR WAGNER BARROS.
    TreinaTom é um sistema de ensino à distância feito pela e-genial.
-
