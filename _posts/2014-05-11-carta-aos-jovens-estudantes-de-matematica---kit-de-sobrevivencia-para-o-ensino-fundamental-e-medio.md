@@ -35,4 +35,6 @@ Chega de mitos, mentiras, distorções a respeito de uma disciplina que é base 
 
 Sei que você já está curioso para saber as dicas, então fique com o livro: 
 
+<a href="https://www.slideshare.net/valeriofarias/carta-aosjovensestudantesdematematica"><img src="/images/carta-matematica.png" /></a> 
+
 <div style="margin-bottom:5px"> <strong> <a href="https://www.slideshare.net/valeriofarias/carta-aosjovensestudantesdematematica" title="Carta aos Jovens Estudantes de Matemática - Kit de Sobrevivência para o Ensino Fundamental e Médio" target="_blank">Carta aos Jovens Estudantes de Matemática - Kit de Sobrevivência para o Ensino Fundamental e Médio</a> </strong> from <strong><a href="http://www.slideshare.net/valeriofarias" target="_blank">Valério Farias</a></strong> </div>
