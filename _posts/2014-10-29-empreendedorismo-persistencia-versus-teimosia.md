@@ -15,7 +15,7 @@ Tenho uma dica simples para o teimoso. Tente 3 vezes, se não der certo mude a e
 
 O esforço necessário para que um bom planejamento transforme o seu objetivo em realidade. Sem esforço e persistencia não chegamos a lugar nenhum. Às vezes acertamos de primeira outras vezes não. O que separa os homens de sucesso dos que morreram na praia é a persistência.
 
-<ima src="/images/persistencia.jpg" style="float:right" alt="perstência"/>
+<img src="/images/persistencia.jpg" style="float:right" alt="persitência"/>
 
 ## O exemplo de Lula
 
