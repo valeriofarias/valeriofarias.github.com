@@ -10,12 +10,12 @@ tags: [empreendedorismo, persistência]
 
 Tenho uma dica simples para o teimoso. Tente 3 vezes, se não der certo mude a estratégia ou o objetivo. Se a sensação é a de dar murro em ponta de faca, desista imediatamente e pense em outra causa a defender, outro objetivo.
 
+<img src="/images/persistencia.jpg" style="float:right" alt="persitência"/>
 
 ## Persistência
 
 O esforço necessário para que um bom planejamento transforme o seu objetivo em realidade. Sem esforço e persistencia não chegamos a lugar nenhum. Às vezes acertamos de primeira outras vezes não. O que separa os homens de sucesso dos que morreram na praia é a persistência.
 
-<img src="/images/persistencia.jpg" style="float:right" alt="persitência"/>
 
 ## O exemplo de Lula
 
