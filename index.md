@@ -1,11 +1,9 @@
 ---
 layout: page
-title: Tecnologia + Negócios = :) 
+title: Tecnologia, educação e negócios 
 subtitle: Home 
 ---
 {% include JB/setup %}
-
-
 
 <ul class="posts">
   {% for post in site.posts %}
@@ -17,8 +15,6 @@ subtitle: Home
       <h2>{{this_year}}</h2>
    {% endif %}   
       
-      
-
     <li style="margin-bottom:10px;"><span style="color:green;">{{ post.date | date: "%b %e" }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
  
       {% unless forloop.last %} 
