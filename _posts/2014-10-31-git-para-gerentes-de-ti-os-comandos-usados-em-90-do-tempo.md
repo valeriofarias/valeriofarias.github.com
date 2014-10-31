@@ -6,7 +6,7 @@ tags: [git, controle de versão, gestão de TI]
 ---
 {% include JB/setup %}
 
-Simulando a utilização da Linguagem C# com Visual Studio. Mas, o processo a seguir serve para qualquer outra linguagem de programação.
+Os gerentes de TI tem que lidar muito com questões estratégicas, mas sempre é importante ter uma noção do código e esse passo a passo mostra como o git é utilizado em 90% do tempo. Esse exemplo simulando a utilização da Linguagem C# com Visual Studio. Mas, o processo a seguir serve para qualquer outra linguagem de programação. 
 
 ## Inicializando com Git
 - Instala o git na máquina, marcando a 2 opção de configuração Download do git
