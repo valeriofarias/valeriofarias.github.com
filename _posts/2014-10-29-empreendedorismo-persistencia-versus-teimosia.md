@@ -25,7 +25,7 @@ Disputou campanha contra Color em 1989 e perdeu, sua postura sindicalista radica
 
 Depois perdeu mais 2 vezes em 1994 e 1998 para Fernando Henrique. As 3 derrotas no primeiro turno (até aqui temos sintomas de teimosia: posição sindicalista extremista).
 
-Finalmente, abdicando das posições tomadas em campanhas anteriores, como manifestação de opiniões tidas por radicais, Lula optou em 2002 por um discurso moderado, comprometendo-se com a econômica, respeito aos contratos e reconhecimento da dívida externa do país, conquistando a confiança de parte da classe média e do empresariado. O resultado todos sabemos que foi 2 mandatos seguidos devido à sua mudança de postura.
+Finalmente, abdicando das posições tomadas em campanhas anteriores, como manifestação de opiniões tidas por radicais, Lula optou em 2002 por um discurso moderado, comprometendo-se com a economia, respeito aos contratos e reconhecimento da dívida externa do país, conquistando a confiança de parte da classe média e do empresariado. O resultado todos sabemos que foi 2 mandatos seguidos devido à sua mudança de postura.
 
 Pode prestar a atenção que as ações de Lula, por coincidência, se encaixaram no meu exemplo da Teimosia: Tente 3 vezes, depois mude algo. Lula mudou a postura política e chegou ao objetivo almejado. 
 
