@@ -33,4 +33,4 @@ Quando algo não está dando certo, dê uma pausa, respire fundo e faça a pergu
 
 ## Aceite e abrace a mudança como a única constante da vida. 
 
-__Obs.:__ Esse blog reconhece a importância e a legitimidade da política partidária, porém não tem nenhum vínculo com esse tema. O tema desse texto é empreendedorismo. o exemplo foi utilizado extritamente por motivos didáticos para abordar o assunto da persistência x teimosia. Tomei como referência memórias de meu passado e também nesse texto do [Wikipedia](http://pt.wikipedia.org/wiki/Luiz_In%C3%A1cio_Lula_da_Silva). Peço respeitosamente que os comentários se detenham ao tema empreendedorismo.
+__Obs.:__ Esse blog reconhece a importância e a legitimidade da política partidária, porém não tem nenhum vínculo com esse tema. O tema desse texto é empreendedorismo. o exemplo foi utilizado extritamente por motivos didáticos para abordar o assunto da persistência x teimosia. Tomei como referência memórias de meu passado e também esse texto do [Wikipedia](http://pt.wikipedia.org/wiki/Luiz_In%C3%A1cio_Lula_da_Silva). Peço respeitosamente que os comentários se detenham ao tema empreendedorismo.
