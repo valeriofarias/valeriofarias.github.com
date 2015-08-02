@@ -28,3 +28,6 @@ O autor também esclarece sobre a incoerência e inconsistência das ideias soci
 ### Leitura obrigatória para nenhuma pessoa ser mais enganada por ideias socialistas sem embasamento histórico que na prática só servem como mecanismo para uma minoria usufruir de luxo enquanto a maioria perde todas as suas liberdades: expressão, ir e vir, econômica.
 
 ## Obs.: Ao invés da visão dualista, mentirosa que mostra o dono do negócio como ruim e o trabalhador como bom, colocados descaradamente nos livros didáticos de escolas do nosso Brasil, vamos substituir por esse livro: As seis lições. Com esse simples gesto todos sairiam ganhando: o aluno, o professor, a escola, os pais, a cidade e finalmente a nação. Dessa forma não seriamos mais enganados com ideias, que na prática só causam males a nossa sociedade como o socialismo e comunismo.
+
+Você pode adquirir o ebook em pdf de forma gratuita no seguinte endereço:
+[http://www.mises.org.br/Ebook.aspx?id=16](http://www.mises.org.br/Ebook.aspx?id=16)
