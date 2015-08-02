@@ -15,11 +15,9 @@ Misses, que é o maior representante da escola de economia austríaca, fala de t
 
 Ele percorre os temas sempre demonstrando historicamente as falhas no passado para que a gente não precise passar por elas novamente.
 
-<img src="/images/as-seis-licoes.jpg" style="float:right" alt="livro: as seis lições"/>
+<img src="/images/as-seis-licoes.jpg" style="float:right; width:35px" alt="livro: as seis lições"/>
 
 __Um__ dos __pontos chave__ é que o autor prova que, o advento do capitalismo foi o que proporcionou a maior evolução na qualidade de vida das pessoas. Antes as pessoas tinham uma vida estática, sem perspectiva: nascia pobre, morria pobre. O capitalismo permite migrar ainda em vida, pelo esforço e determinação individual de uma condição pobreza para uma condição próspera.
-
-[PISA](http://en.wikipedia.org/wiki/Programme_for_International_Student_Assessment)
 
 __Outro ponto chave é:__ o governo é que define a prosperidade ou o declínio de uma nação. Quanto mais enxuto o governo, ou seja, quanto menos ele se mete na economia mais a nação fica próspera. E o inverso, o intervencionismo e controle da economia pelo estado e excesso de poder do governo, inevitavelmente leva a uma nação com sérios problemas. O ponto não é ausência de governo, mais sim governo que não interfere nas questões econômicas.
 
