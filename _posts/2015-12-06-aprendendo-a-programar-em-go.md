@@ -10,8 +10,8 @@ Abaixo um conjunto de links para quem deseja iniciar a jornada e aprender a prog
 
 
 #### Site principal
-[https://golang.org/](https://golang.org/)
-[http://www.golangbr.org/](http://www.golangbr.org/)
+- [https://golang.org/](https://golang.org/)
+- [http://www.golangbr.org/](http://www.golangbr.org/)
 
 #### Passeio pela linguagem GO
 - [https://go-tour-br.appspot.com/welcome/1](https://go-tour-br.appspot.com/welcome/1)
